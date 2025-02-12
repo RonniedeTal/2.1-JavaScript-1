@@ -54,10 +54,12 @@ const compare = () => {
   let b = parseInt(document.getElementById("num-b").value);
   let c = parseInt(document.getElementById("num-c").value);
   let maxNum = maximo(a, b, c);
-  let determinaValor = posiNeg(a);
+  let determinaValorA = posiNeg(a);
+  let determinaValorB = posiNeg(b);
+  let determinaValorC = posiNeg(c);
   document.getElementById(
     "first-answer"
-  ).innerHTML = `number ${maxNum}is ${determinaValor}`;
+  ).innerHTML = `number  ${a} is ${determinaValorA}, number  ${b} is ${determinaValorB}, number  ${c} is ${determinaValorC}, `;
 
   document.getElementById(
     "second-answer"

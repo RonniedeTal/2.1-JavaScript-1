@@ -11,7 +11,7 @@ console.log(add(1, 2));
 //ejercicio 2
 // Funció de fletxa sense paràmetres: Crea una funció de fletxa anomenada randomNumber que no necessiti paràmetres i que retorni un número aleatori entre 0 i 100
 const randomNumber = () => {
-  return Math.floor(Math.random() * 100);
+  return Math.floor(Math.random() * 100+1);
 };
 console.log(randomNumber());
 

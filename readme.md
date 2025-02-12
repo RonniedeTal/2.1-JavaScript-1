@@ -9,7 +9,7 @@ This repo includes exercises for beginners using JavaScript
 .Web browser
 
 ## install ##
-. git clone https://github.com/RonniedeTal/2.1-JavaScript-1.git
+. ```git clone https://github.com/RonniedeTal/2.1-JavaScript-1.git´´´
 . Open html using live server or similar
 . inspect web page (f12)
 . console
